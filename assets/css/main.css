@@ -1682,7 +1682,7 @@ input, select, textarea {
 
 		.carousel-item h5 {
 			font-size: 1.3rem;
-			margin: 0;
+			margin: .5rem 0 0 0;
 		}
 
 		.carousel-item p{
@@ -1700,7 +1700,7 @@ input, select, textarea {
 
 		.carousel-item img {
 			position: relative;
-			margin-top: 15%;
+			margin-top: 12%;
 		}
 
 		.carousel-indicators{	
@@ -1717,6 +1717,11 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 400px) {
+			.carousel-indicators{
+				margin-bottom: 7.5%;
+			}
+		}
 		.carousel .carousel-indicators button {
 			margin: .3rem;
 			width: 15px;
